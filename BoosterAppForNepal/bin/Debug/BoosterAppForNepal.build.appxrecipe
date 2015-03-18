@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>RACHHEK-KO</Machine>
+    <WindowsUser>Rachhek Shrestha</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>e5b385d9-9c7e-4bdf-bbb3-120698ac1640</PackageIdentityName>
+    <IntermediateOutputPath>D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\BoosterAppForNepal.exe">
+      <PackagePath>BoosterAppForNepal.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\kid2.jpg">
+      <PackagePath>Assets\kid2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\bcg - Copy.jpg">
+      <PackagePath>Assets\bcg - Copy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\bcg.jpg">
+      <PackagePath>Assets\bcg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\chickenpox - Copy.jpg">
+      <PackagePath>Assets\chickenpox - Copy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\chickenpox.jpg">
+      <PackagePath>Assets\chickenpox.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\kid1.jpg">
+      <PackagePath>Assets\kid1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\dpt - Copy.jpg">
+      <PackagePath>Assets\dpt - Copy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\dpt.jpg">
+      <PackagePath>Assets\dpt.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\hepa - Copy.jpg">
+      <PackagePath>Assets\hepa - Copy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\hepa.jpg">
+      <PackagePath>Assets\hepa.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\HepaB - Copy.jpg">
+      <PackagePath>Assets\HepaB - Copy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\HepaB.jpg">
+      <PackagePath>Assets\HepaB.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\HepB - Copy.jpg">
+      <PackagePath>Assets\HepB - Copy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\HepB.jpg">
+      <PackagePath>Assets\HepB.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\ipv - Copy.jpg">
+      <PackagePath>Assets\ipv - Copy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\ipv.jpg">
+      <PackagePath>Assets\ipv.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\khop - Copy.jpg">
+      <PackagePath>Assets\khop - Copy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\khop.jpg">
+      <PackagePath>Assets\khop.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\map - Copy.jpG">
+      <PackagePath>Assets\map - Copy.jpG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\map.jpG">
+      <PackagePath>Assets\map.jpG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\mmr - Copy.jpg">
+      <PackagePath>Assets\mmr - Copy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\mmr.jpg">
+      <PackagePath>Assets\mmr.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\opv - Copy.jpg">
+      <PackagePath>Assets\opv - Copy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\opv.jpg">
+      <PackagePath>Assets\opv.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\opvchild - Copy.jpg">
+      <PackagePath>Assets\opvchild - Copy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\opvchild.jpg">
+      <PackagePath>Assets\opvchild.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\pcv - Copy.jpg">
+      <PackagePath>Assets\pcv - Copy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\pcv.jpg">
+      <PackagePath>Assets\pcv.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\polio - Copy.jpg">
+      <PackagePath>Assets\polio - Copy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\polio.jpg">
+      <PackagePath>Assets\polio.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\vaccine - Copy.jpg">
+      <PackagePath>Assets\vaccine - Copy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\vaccine.jpg">
+      <PackagePath>Assets\vaccine.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\DarkGray - Copy.png">
+      <PackagePath>Assets\DarkGray - Copy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\LightGray - Copy.png">
+      <PackagePath>Assets\LightGray - Copy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\Logo.scale-100 - Copy.png">
+      <PackagePath>Assets\Logo.scale-100 - Copy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\map - Copy.PNG">
+      <PackagePath>Assets\map - Copy.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\map.PNG">
+      <PackagePath>Assets\map.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\MediumGray - Copy.png">
+      <PackagePath>Assets\MediumGray - Copy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SmallLogo.scale-100 - Copy.png">
+      <PackagePath>Assets\SmallLogo.scale-100 - Copy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SplashScreen.scale-100 - Copy.png">
+      <PackagePath>Assets\SplashScreen.scale-100 - Copy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SplashScreen.scale-140 - Copy.png">
+      <PackagePath>Assets\SplashScreen.scale-140 - Copy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SplashScreen.scale-140s - Copy.png">
+      <PackagePath>Assets\SplashScreen.scale-140s - Copy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SplashScreen.scale-180 - Copy.png">
+      <PackagePath>Assets\SplashScreen.scale-180 - Copy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SplashScreen.scale-140s.png">
+      <PackagePath>Assets\SplashScreen.scale-140s.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SplashScreen.scale-180s - Copy.png">
+      <PackagePath>Assets\SplashScreen.scale-180s - Copy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SplashScreen.scale-180s.png">
+      <PackagePath>Assets\SplashScreen.scale-180s.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\StoreLogo.scale-100 - Copy.png">
+      <PackagePath>Assets\StoreLogo.scale-100 - Copy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\EventDetail.xbf">
+      <PackagePath>EventDetail.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\HubPage.xbf">
+      <PackagePath>HubPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\instant.xbf">
+      <PackagePath>instant.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\NearestMap.xbf">
+      <PackagePath>NearestMap.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\SectionPage.xbf">
+      <PackagePath>SectionPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\ItemPage.xbf">
+      <PackagePath>ItemPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\SettingsFlyoutSIgnin.xbf">
+      <PackagePath>SettingsFlyoutSIgnin.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\SettingsFlyoutSignUp.xbf">
+      <PackagePath>SettingsFlyoutSignUp.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\UnicefPage.xbf">
+      <PackagePath>UnicefPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\Upc.xbf">
+      <PackagePath>Upc.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\users.xbf">
+      <PackagePath>users.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\BoosterAppForNepal.xr.xml">
+      <PackagePath>BoosterAppForNepal.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

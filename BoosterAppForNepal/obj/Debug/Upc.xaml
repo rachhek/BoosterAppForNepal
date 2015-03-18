@@ -1,0 +1,219 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="BoosterAppForNepal.Upc"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BoosterAppForNepal"
+    xmlns:common="using:BoosterAppForNepal.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <x:String x:Key="ChevronGlyph">&#xE26B;</x:String>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page.
+    -->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Hub>
+            <Hub.Header>
+                <!-- Back button and page title -->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="80"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button  x:Name="backButton" Margin="-1,-1,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+                    <TextBlock x:Name="pageTitle" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Top" Text="Khop for Hope"/>
+                </Grid>
+            </Hub.Header>
+
+            <HubSection Width="467">
+                <DataTemplate>
+                    <StackPanel Height="698" Width="556">
+                        <Image Margin="-80,-50,10,0" Source="Assets/Vaccine.jpg" Stretch="UniformToFill" />
+
+                    </StackPanel>
+
+                </DataTemplate>
+            </HubSection>
+
+            <HubSection Header="July 10th" Width="300" >
+                <DataTemplate>
+
+
+
+                    <StackPanel Width="218">
+                        <Image Source="/assets/polio.jpg" Width="208" Height="155" HorizontalAlignment="Left"/>
+                        <TextBlock Text="Polio Vaccine" Style="{StaticResource SubtitleTextBlockStyle}"/>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                            <TextBlock Text="Date: "/>
+                            <TextBlock Margin="10,0,0,0" Text="10th July 2014"/>
+
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                            <TextBlock Text="Place: "/>
+                            <TextBlock Margin="10,0,0,0" Text="All Nepal"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                            <TextBlock Text="Disease: "/>
+                            <TextBlock Margin="10,0,0,0" Text="Polio"/>
+                        </StackPanel>
+
+                        <TextBlock Margin="10,20,0,20" Text="Polio Immunization Camp is being organized this July 10th 2014. Please contact your
+                                   nearest health facilitor for more details.
+                                   " TextWrapping="Wrap" Style="{StaticResource CaptionTextBlockStyle}" HorizontalAlignment="Left" Width="180"/>
+                        <Button Content="Click to learn more" BorderThickness="0" Style="{StaticResource TextBlockButtonStyle}" />
+                    </StackPanel>
+                </DataTemplate>
+            </HubSection>
+            <!-- Second row-->
+
+            <HubSection Header="July 14th" Height="763" Width="300" RenderTransformOrigin="0.618,0.482">
+                <DataTemplate>
+                    <StackPanel Width="218">
+                        <Image Source="/assets/hepab.jpg" Width="185" Height="155" HorizontalAlignment="Left"/>
+                        <TextBlock Text="HepB Vaccine" Style="{StaticResource SubtitleTextBlockStyle}"/>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                            <TextBlock Text="Date: "/>
+                            <TextBlock Margin="10,0,0,0" Text="14th July 2014"/>
+
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                            <TextBlock Text="Place: "/>
+                            <TextBlock Margin="10,0,0,0" Text="Biratnagar"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                            <TextBlock Text="Disease: "/>
+                            <TextBlock Margin="10,0,0,0" Text="Polio"/>
+                        </StackPanel>
+
+                        <TextBlock HorizontalAlignment="Left" Margin="10,20,5,20" Text="Hepatitis B Immunization Camp is being organized this July 14th 2014. Please contact your
+                                   nearest health facilitor for more details.
+                                   " TextWrapping="Wrap" Style="{StaticResource CaptionTextBlockStyle}"/>
+                        <Button Content="Click to learn more" BorderThickness="0" Style="{StaticResource TextBlockButtonStyle}" />
+                    </StackPanel>
+
+
+
+
+                </DataTemplate>
+            </HubSection>
+
+            <!--THird COLOUM -->
+            <HubSection Header="August 8th" Height="763" Width="300" RenderTransformOrigin="0.618,0.482">
+                <DataTemplate>
+                    <StackPanel Width="218">
+                        <Image Source="/assets/MMR.jpg" Width="185" Height="155" HorizontalAlignment="Left"/>
+                        <TextBlock Text="MMR Vaccine" Style="{StaticResource SubtitleTextBlockStyle}"/>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                            <TextBlock Text="Date: "/>
+                            <TextBlock Margin="10,0,0,0" Text="August 8th July 2014"/>
+
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                            <TextBlock Text="Place: "/>
+                            <TextBlock Margin="10,0,0,0" Text="Itahari"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                            <TextBlock Text="Disease: "/>
+                            <TextBlock Margin="10,0,0,0" Text="Measles, Mumps, Rubella"/>
+                        </StackPanel>
+
+                        <TextBlock HorizontalAlignment="Left" Margin="10,20,5,20" Text="Measles Immunization Camp is being organized this July 14th 2014. Please contact your
+                                   nearest health facilitor for more details.
+                                   " TextWrapping="Wrap" Style="{StaticResource CaptionTextBlockStyle}"/>
+                        <Button Content="Click to learn more" BorderThickness="0" Style="{StaticResource TextBlockButtonStyle}" />
+                    </StackPanel>
+
+
+
+
+                </DataTemplate>
+            </HubSection>
+
+            <HubSection Header="August 24th" Height="763" Width="300" RenderTransformOrigin="0.618,0.482">
+                <DataTemplate>
+                    <StackPanel Width="218">
+                        <Image Source="/assets/chickenpox.jpg" Width="185" Height="155" HorizontalAlignment="Left"/>
+                        <TextBlock Text="Var Vaccine" Style="{StaticResource SubtitleTextBlockStyle}"/>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                            <TextBlock Text="Date: "/>
+                            <TextBlock Margin="10,0,0,0" Text="August 24th 2014"/>
+
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                            <TextBlock Text="Place: "/>
+                            <TextBlock Margin="10,0,0,0" Text="Kavre"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                            <TextBlock Text="Disease: "/>
+                            <TextBlock Margin="10,0,0,0" Text="ChickenPox"/>
+                        </StackPanel>
+
+                        <TextBlock HorizontalAlignment="Left" Margin="10,20,5,20" Text="Var Immunization Camp is being organized this July 14th 2014. Please contact your
+                                   nearest health facilitor for more details.
+                                   " TextWrapping="Wrap" Style="{StaticResource CaptionTextBlockStyle}"/>
+                        <Button Content="Click to learn more" BorderThickness="0" Style="{StaticResource TextBlockButtonStyle}" />
+                    </StackPanel>
+
+
+
+
+                </DataTemplate>
+            </HubSection>
+            <HubSection Header="September 14th" Height="763" Width="300" RenderTransformOrigin="0.618,0.482">
+                <DataTemplate>
+                    <StackPanel Width="218">
+                        <Image Source="/assets/hepa.jpg" Width="185" Height="155" HorizontalAlignment="Left"/>
+                        <TextBlock Text="HepA Vaccine" Style="{StaticResource SubtitleTextBlockStyle}"/>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                            <TextBlock Text="Date: "/>
+                            <TextBlock Margin="10,0,0,0" Text="September 14th 2014"/>
+
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                            <TextBlock Text="Place: "/>
+                            <TextBlock Margin="10,0,0,0" Text="All Nepal"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                            <TextBlock Text="Disease: "/>
+                            <TextBlock Margin="10,0,0,0" Text="Hepatitis A"/>
+                        </StackPanel>
+
+                        <TextBlock HorizontalAlignment="Left" Margin="10,20,5,20" Text="Hepatitis A Immunization Camp is being organized this July 14th 2014. Please contact your
+                                   nearest health facilitor for more details.
+                                   " TextWrapping="Wrap" Style="{StaticResource CaptionTextBlockStyle}"/>
+                        <Button Content="Click to learn more" BorderThickness="0" Style="{StaticResource TextBlockButtonStyle}" />
+                    </StackPanel>
+
+
+
+
+                </DataTemplate>
+            </HubSection>
+
+
+        </Hub>
+    </Grid>
+</Page>
+

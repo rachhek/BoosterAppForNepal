@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>RACHHEK-KO</Machine>
+    <WindowsUser>Rachhek Shrestha</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>e5b385d9-9c7e-4bdf-bbb3-120698ac1640</PackageIdentityName>
+    <IntermediateOutputPath>D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>8842F201F5952C3F45A7DEEAE8A659543A163C88D4B70037F0C52507A3F470AA</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>e5b385d9-9c7e-4bdf-bbb3-120698ac1640_1.0.0.0_neutral__pwtf1emj0xzpa</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>e5b385d9-9c7e-4bdf-bbb3-120698ac1640_pwtf1emj0xzpa!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>e5b385d9-9c7e-4bdf-bbb3-120698ac1640</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Rachhek Shrestha</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-18T18:15:10.144</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\BoosterAppForNepal.exe">
+      <PackagePath>BoosterAppForNepal.exe</PackagePath>
+      <Modified>2015-03-18T18:15:08.888</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\kid2.jpg">
+      <PackagePath>Assets\kid2.jpg</PackagePath>
+      <Modified>2014-07-15T00:54:46.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\bcg - Copy.jpg">
+      <PackagePath>Assets\bcg - Copy.jpg</PackagePath>
+      <Modified>2014-07-02T17:33:34.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\bcg.jpg">
+      <PackagePath>Assets\bcg.jpg</PackagePath>
+      <Modified>2014-06-27T19:12:54.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\chickenpox - Copy.jpg">
+      <PackagePath>Assets\chickenpox - Copy.jpg</PackagePath>
+      <Modified>2014-07-02T17:33:34.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\chickenpox.jpg">
+      <PackagePath>Assets\chickenpox.jpg</PackagePath>
+      <Modified>2014-06-27T08:29:27.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\kid1.jpg">
+      <PackagePath>Assets\kid1.jpg</PackagePath>
+      <Modified>2014-07-15T00:50:04.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\dpt - Copy.jpg">
+      <PackagePath>Assets\dpt - Copy.jpg</PackagePath>
+      <Modified>2014-07-02T17:33:34.813</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\dpt.jpg">
+      <PackagePath>Assets\dpt.jpg</PackagePath>
+      <Modified>2014-06-27T19:12:54.776</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\hepa - Copy.jpg">
+      <PackagePath>Assets\hepa - Copy.jpg</PackagePath>
+      <Modified>2014-07-02T17:33:34.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\hepa.jpg">
+      <PackagePath>Assets\hepa.jpg</PackagePath>
+      <Modified>2014-06-27T08:29:27.242</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\HepaB - Copy.jpg">
+      <PackagePath>Assets\HepaB - Copy.jpg</PackagePath>
+      <Modified>2014-07-02T17:33:34.820</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\HepaB.jpg">
+      <PackagePath>Assets\HepaB.jpg</PackagePath>
+      <Modified>2014-06-27T08:29:27.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\HepB - Copy.jpg">
+      <PackagePath>Assets\HepB - Copy.jpg</PackagePath>
+      <Modified>2014-07-02T17:33:34.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\HepB.jpg">
+      <PackagePath>Assets\HepB.jpg</PackagePath>
+      <Modified>2014-06-27T08:29:27.251</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\ipv - Copy.jpg">
+      <PackagePath>Assets\ipv - Copy.jpg</PackagePath>
+      <Modified>2014-07-02T17:33:34.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\ipv.jpg">
+      <PackagePath>Assets\ipv.jpg</PackagePath>
+      <Modified>2014-06-27T19:12:54.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\khop - Copy.jpg">
+      <PackagePath>Assets\khop - Copy.jpg</PackagePath>
+      <Modified>2014-07-02T17:33:34.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\khop.jpg">
+      <PackagePath>Assets\khop.jpg</PackagePath>
+      <Modified>2014-06-28T11:50:36.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\map - Copy.jpG">
+      <PackagePath>Assets\map - Copy.jpG</PackagePath>
+      <Modified>2014-07-02T17:33:34.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\map.jpG">
+      <PackagePath>Assets\map.jpG</PackagePath>
+      <Modified>2014-06-29T02:45:52.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\mmr - Copy.jpg">
+      <PackagePath>Assets\mmr - Copy.jpg</PackagePath>
+      <Modified>2014-07-02T17:33:34.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\mmr.jpg">
+      <PackagePath>Assets\mmr.jpg</PackagePath>
+      <Modified>2014-06-27T08:29:29.907</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\opv - Copy.jpg">
+      <PackagePath>Assets\opv - Copy.jpg</PackagePath>
+      <Modified>2014-07-02T17:33:34.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\opv.jpg">
+      <PackagePath>Assets\opv.jpg</PackagePath>
+      <Modified>2014-06-27T19:12:54.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\opvchild - Copy.jpg">
+      <PackagePath>Assets\opvchild - Copy.jpg</PackagePath>
+      <Modified>2014-07-02T17:33:34.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\opvchild.jpg">
+      <PackagePath>Assets\opvchild.jpg</PackagePath>
+      <Modified>2014-06-28T11:44:43.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\pcv - Copy.jpg">
+      <PackagePath>Assets\pcv - Copy.jpg</PackagePath>
+      <Modified>2014-07-02T17:33:34.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\pcv.jpg">
+      <PackagePath>Assets\pcv.jpg</PackagePath>
+      <Modified>2014-06-27T19:12:54.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\polio - Copy.jpg">
+      <PackagePath>Assets\polio - Copy.jpg</PackagePath>
+      <Modified>2014-07-02T17:33:34.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\polio.jpg">
+      <PackagePath>Assets\polio.jpg</PackagePath>
+      <Modified>2014-06-27T08:29:29.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\vaccine - Copy.jpg">
+      <PackagePath>Assets\vaccine - Copy.jpg</PackagePath>
+      <Modified>2014-07-02T17:33:35.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\vaccine.jpg">
+      <PackagePath>Assets\vaccine.jpg</PackagePath>
+      <Modified>2014-06-27T08:29:29.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\DarkGray - Copy.png">
+      <PackagePath>Assets\DarkGray - Copy.png</PackagePath>
+      <Modified>2014-07-02T17:33:34.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\LightGray - Copy.png">
+      <PackagePath>Assets\LightGray - Copy.png</PackagePath>
+      <Modified>2014-07-02T17:33:34.867</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\Logo.scale-100 - Copy.png">
+      <PackagePath>Assets\Logo.scale-100 - Copy.png</PackagePath>
+      <Modified>2014-07-02T17:33:34.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\map - Copy.PNG">
+      <PackagePath>Assets\map - Copy.PNG</PackagePath>
+      <Modified>2014-07-02T17:33:34.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\map.PNG">
+      <PackagePath>Assets\map.PNG</PackagePath>
+      <Modified>2014-06-29T02:27:42.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\MediumGray - Copy.png">
+      <PackagePath>Assets\MediumGray - Copy.png</PackagePath>
+      <Modified>2014-07-02T17:33:34.922</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SmallLogo.scale-100 - Copy.png">
+      <PackagePath>Assets\SmallLogo.scale-100 - Copy.png</PackagePath>
+      <Modified>2014-07-02T17:33:34.961</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SplashScreen.scale-100 - Copy.png">
+      <PackagePath>Assets\SplashScreen.scale-100 - Copy.png</PackagePath>
+      <Modified>2014-07-02T17:33:34.977</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SplashScreen.scale-140 - Copy.png">
+      <PackagePath>Assets\SplashScreen.scale-140 - Copy.png</PackagePath>
+      <Modified>2014-07-02T17:33:34.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-28T11:04:10.210</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SplashScreen.scale-140s - Copy.png">
+      <PackagePath>Assets\SplashScreen.scale-140s - Copy.png</PackagePath>
+      <Modified>2014-07-02T17:33:35.026</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SplashScreen.scale-180 - Copy.png">
+      <PackagePath>Assets\SplashScreen.scale-180 - Copy.png</PackagePath>
+      <Modified>2014-07-02T17:33:35.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-28T11:03:02.243</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SplashScreen.scale-140s.png">
+      <PackagePath>Assets\SplashScreen.scale-140s.png</PackagePath>
+      <Modified>2014-06-28T10:48:56.260</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SplashScreen.scale-180s - Copy.png">
+      <PackagePath>Assets\SplashScreen.scale-180s - Copy.png</PackagePath>
+      <Modified>2014-07-02T17:33:35.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SplashScreen.scale-180s.png">
+      <PackagePath>Assets\SplashScreen.scale-180s.png</PackagePath>
+      <Modified>2014-06-28T10:46:45.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\StoreLogo.scale-100 - Copy.png">
+      <PackagePath>Assets\StoreLogo.scale-100 - Copy.png</PackagePath>
+      <Modified>2014-07-02T17:33:35.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-28T11:11:20.308</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-27T08:29:29.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-28T11:05:30.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-27T08:29:29.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2013-07-23T00:16:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2013-07-23T00:16:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2013-07-23T00:16:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+      <Modified>2014-06-28T12:06:37.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-06-28T12:22:26.573</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\EventDetail.xbf">
+      <PackagePath>EventDetail.xbf</PackagePath>
+      <Modified>2014-06-28T12:22:26.573</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\HubPage.xbf">
+      <PackagePath>HubPage.xbf</PackagePath>
+      <Modified>2014-07-15T01:01:33.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\instant.xbf">
+      <PackagePath>instant.xbf</PackagePath>
+      <Modified>2014-07-15T01:01:33.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\NearestMap.xbf">
+      <PackagePath>NearestMap.xbf</PackagePath>
+      <Modified>2014-06-28T12:22:26.574</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\SectionPage.xbf">
+      <PackagePath>SectionPage.xbf</PackagePath>
+      <Modified>2014-06-27T16:38:02.404</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\ItemPage.xbf">
+      <PackagePath>ItemPage.xbf</PackagePath>
+      <Modified>2014-06-28T12:22:26.574</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\SettingsFlyoutSIgnin.xbf">
+      <PackagePath>SettingsFlyoutSIgnin.xbf</PackagePath>
+      <Modified>2014-06-27T16:38:02.404</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\SettingsFlyoutSignUp.xbf">
+      <PackagePath>SettingsFlyoutSignUp.xbf</PackagePath>
+      <Modified>2014-06-27T16:38:02.404</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\UnicefPage.xbf">
+      <PackagePath>UnicefPage.xbf</PackagePath>
+      <Modified>2014-06-29T02:46:31.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\Upc.xbf">
+      <PackagePath>Upc.xbf</PackagePath>
+      <Modified>2014-06-29T02:46:31.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\users.xbf">
+      <PackagePath>users.xbf</PackagePath>
+      <Modified>2014-07-15T01:19:56.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\BoosterAppForNepal.xr.xml">
+      <PackagePath>BoosterAppForNepal.xr.xml</PackagePath>
+      <Modified>2015-03-18T18:15:08.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-03-18T18:15:09.270</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

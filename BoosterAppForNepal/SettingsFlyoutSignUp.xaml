@@ -1,0 +1,46 @@
+﻿<SettingsFlyout
+    x:Class="BoosterAppForNepal.SettingsFlyoutSignUp"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BoosterAppForNepal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="346" Title="Sign Up">
+
+    <!-- This StackPanel acts as a root panel for vertical layout of the content sections -->
+    <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+
+        <!-- The StackPanel(s) below define individual content sections -->
+
+        <!-- Content Section 1-->
+        <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+
+            <!-- Section 1 header -->
+            <TextBlock Text="First Name" Style="{StaticResource TitleTextBlockStyle}"/>
+            <TextBox Width="250" Margin="0,10"/>
+            <TextBlock Text="Last Name" Style="{StaticResource TitleTextBlockStyle}"/>
+            <TextBox Width="250" Margin="0,10"/>
+            <TextBlock Text="Phone Number" Style="{StaticResource TitleTextBlockStyle}"/>
+            <TextBox Width="250" Margin="0,10"/>
+            <TextBlock Text="Email" Style="{StaticResource TitleTextBlockStyle}"/>
+            <TextBox Width="250" Margin="0,10"/>
+            <TextBlock Text="You are :" Style="{StaticResource TitleTextBlockStyle}"/>
+            <StackPanel Orientation="Horizontal">
+                <RadioButton Margin="10,5,10,5" Content="Parent" ></RadioButton>
+                <RadioButton Content="Caregiver"></RadioButton>
+            </StackPanel>
+
+            <TextBlock Text="Password" Style="{StaticResource TitleTextBlockStyle}"/>
+            <TextBox Width="250" Margin="0,10"/>
+            <TextBlock Text="Re-enter Password" Style="{StaticResource TitleTextBlockStyle}"/>
+            <TextBox Width="250" Margin="0,10"/>
+            <Button Content="Sign Up" HorizontalAlignment="Right" Background="#B346CB28" Foreground="White" Margin="0,0,0,10"/>
+
+
+        </StackPanel>
+
+        <!-- Define more Content Sections below as necessary -->
+
+    </StackPanel>
+</SettingsFlyout>

@@ -1,0 +1,117 @@
+﻿<Page
+    x:Class="BoosterAppForNepal.EventDetail"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BoosterAppForNepal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Hub>
+            
+            <Hub.Header>
+                <!-- Back button and page title -->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="80"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:ConnectionId='1'  x:Name="backButton" Margin="-1,-1,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"                         />
+                    <TextBlock x:Name="pageTitle" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Top">
+                    	<Run Text="Khop for Hope"/>
+                    	<LineBreak/>
+                    	<Run/>
+                    </TextBlock>
+                </Grid>
+            </Hub.Header>
+
+            <HubSection Width="409">
+                <HubSection.Background>
+                    <ImageBrush ImageSource="/assets/opvchild.jpg" Stretch="UniformToFill" />
+                </HubSection.Background>
+            </HubSection>
+            <HubSection>
+                <DataTemplate>
+                    <StackPanel Width="218">
+                        <Image Source="/assets/polio.jpg" Width="208"  HorizontalAlignment="Left"/>
+                        <TextBlock Text="OPV Vaccine" Style="{StaticResource SubheaderTextBlockStyle}"/>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                            <TextBlock Text="Vaccine Name: " Style="{StaticResource BodyTextBlockStyle}"/>
+                            <TextBlock Style="{StaticResource BodyTextBlockStyle}" Margin="10,0,0,0" Text="OPV"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                            <TextBlock Text="Date: " Style="{StaticResource BodyTextBlockStyle}"/>
+                            <TextBlock Margin="10,0,0,0" Text="10th July 2014" Style="{StaticResource BodyTextBlockStyle}"/>
+
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                            <TextBlock Text="Place: " Style="{StaticResource BodyTextBlockStyle}"/>
+                            <TextBlock Margin="10,0,0,0" Text="All Nepal" Style="{StaticResource BodyTextBlockStyle}"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                            <TextBlock Text="Disease: " Style="{StaticResource BodyTextBlockStyle}"/>
+                            <TextBlock Margin="10,0,0,0" Text="Polio" Style="{StaticResource BodyTextBlockStyle}"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0 ">
+                            <TextBlock Text="Doses: " Style="{StaticResource BodyTextBlockStyle}"/>
+                            <TextBlock Margin="10,0,0,0" Text="1" Style="{StaticResource BodyTextBlockStyle}"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                            <TextBlock Text="Age of Administration: " Style="{StaticResource BodyTextBlockStyle}"/>
+                            <TextBlock Margin="10,0,0,0" Text="14 weeks" Style="{StaticResource BodyTextBlockStyle}"/>
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </HubSection>    
+            <HubSection Width="500">
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="About Polio and OPV vaccine" Style="{StaticResource SubheaderTextBlockStyle}"/>
+                        <TextBlock Margin="0,20,0,0" TextWrapping="Wrap" Text="What is Polio?" Style="{StaticResource BodyTextBlockStyle}"/>
+
+                        <TextBlock Margin="0,10,0,0" TextWrapping="Wrap" Text="•	Poliomyelitis (polio) is a highly infectious disease that is caused when a person is infected by the polio virus that invades the nervous system. 
+•	Symptoms includes fever, fatigue, headache, vomiting, stiffness in the neck, pain and weakness in the limbs.
+" Style="{StaticResource BodyTextBlockStyle}"/>
+
+                        <TextBlock Margin="0,20,0,0" TextWrapping="Wrap" Text="Who is most at risk of getting polio?" Style="{StaticResource BodyTextBlockStyle}"/>
+
+                        <TextBlock Margin="0,10,0,0" TextWrapping="Wrap" Text="•	Under 5 years children who are not vaccinated and partially vaccinated "
+ Style="{StaticResource BodyTextBlockStyle}"/>
+
+                        <TextBlock Margin="0,20,0,0" TextWrapping="Wrap" Text="How is Polio transmitted ?" Style="{StaticResource BodyTextBlockStyle}"/>
+
+                        <TextBlock Margin="0,10,0,0" TextWrapping="Wrap" Text="•	Enters the body through the mouth, often when one eats food or drinks water that is contaminated with faecal matter from a person who carries the polio virus. " Style="{StaticResource BodyTextBlockStyle}"/>
+
+                        <TextBlock Margin="0,20,0,0" TextWrapping="Wrap" Text="Is there a treatment for polio?" Style="{StaticResource BodyTextBlockStyle}"/>
+
+                        <TextBlock Margin="0,10,0,0" TextWrapping="Wrap" Text="•	No, there is no cure for polio and the disease can severely affect the growth and development of the child. 
+•	Polio can be prevented only by immunizing your child with polio vaccines. 
+" Style="{StaticResource BodyTextBlockStyle}"/>
+                        
+
+                    </StackPanel>
+                </DataTemplate>
+            </HubSection>
+            <HubSection Width="1000">
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="Event Map" Style="{StaticResource SubheaderTextBlockStyle}"/>
+                        <TextBlock Text="Location nearest to you." Style="{StaticResource SubtitleTextBlockStyle}"/>
+                        <Image Margin="0,10,0,0" Source="/assets/map.jpg"/>
+                    </StackPanel>
+                    
+                    
+                </DataTemplate>
+            </HubSection>
+        </Hub>
+    </Grid>
+</Page>
+

@@ -1,0 +1,100 @@
+﻿<Page
+    x:Class="BoosterAppForNepal.UnicefPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BoosterAppForNepal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <x:String x:Key="ChevronGlyph">&#xE26B;</x:String>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page.
+    -->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Hub>
+            <Hub.Header>
+                <!-- Back button and page title -->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="80"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button  x:Name="backButton" Margin="-1,-1,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button" Click="backButton_Click"/>
+                    <TextBlock x:Name="pageTitle" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Top" Text="Khop for Hope"/>
+                </Grid>
+            </Hub.Header>
+
+            <HubSection Width="409">
+                <DataTemplate>
+                    <StackPanel Height="698" Width="556">
+                        <Image Margin="-80,-50,10,0" Source="Assets/Vaccine.jpg" Stretch="UniformToFill" />
+
+                    </StackPanel>
+
+                </DataTemplate>
+            </HubSection>
+        </Hub>
+        <StackPanel Margin="10,165,-10,-165" >
+                        <Grid Height="344" Width="533">
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition  Width="190"/>
+                                <ColumnDefinition Width="340"/>
+
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50" />
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="100"/>
+                            </Grid.RowDefinitions>
+
+
+                            <TextBlock Grid.Row="0" Grid.Column="0" Text="Add event" FontSize="24"/>
+
+                            <TextBlock Grid.Column="0" Grid.Row="1" Text="Vaccine Name: " Style="{StaticResource BodyTextBlockStyle}"/>
+                            <TextBlock Grid.Column="0" Grid.Row="2" Text="Disease: " Style="{StaticResource BodyTextBlockStyle}"/>
+                            <TextBlock Grid.Column="0" Grid.Row="3" Text="Date: " Style="{StaticResource BodyTextBlockStyle}"/>
+                            <TextBlock Grid.Column="0" Grid.Row="4" Text="Location" Style="{StaticResource BodyTextBlockStyle}"/>
+                            <TextBox Grid.Column="1" Grid.Row="1" x:Name="vaccineName" />
+                            <TextBox Grid.Column="1" Grid.Row="2" x:Name="diseaseName"/>
+                            <DatePicker  Grid.Column="1" Grid.Row="3" x:Name="date"/>
+                            <TextBox Grid.Column="1" Grid.Row="4" x:Name="location" Margin="0,0,0,-12"/>
+                            <TextBox Grid.Column="1" Grid.Row="5" x:Name="description" Margin="0,0,0,16"/>
+                            <TextBlock Text="Description" Grid.Column="0" Grid.Row="5" Style="{StaticResource BodyTextBlockStyle}"/>
+                        </Grid>
+            <Button Margin="850,10,0,0" Content="Add Event" Click="addEvent_click" RenderTransformOrigin="4.475,1.235"/>
+        </StackPanel>
+               
+     
+      
+        
+          <ComboBox FontSize="14" ItemsSource="{Binding}" PlaceholderText="Choose Event" HorizontalAlignment="Left" Margin="1081,240,0,0" VerticalAlignment="Top" Width="275" x:Name="events"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1081,203,0,0" TextWrapping="Wrap" Text="Send Reminders" FontSize="18" VerticalAlignment="Top" Height="31" Width="155" />
+        <Button Content="Send Reminders" HorizontalAlignment="Left" Margin="1204,388,0,0" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Page>

@@ -1,0 +1,163 @@
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\App.xbf
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\HubPage.xbf
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\SectionPage.xbf
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\ItemPage.xbf
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\BoosterAppForNepal.exe
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\BoosterAppForNepal.pdb
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\resources.pri
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\AppxManifest.xml
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\BoosterAppForNepal.build.appxrecipe
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\App.g.i.cs
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\App.g.cs
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\HubPage.g.i.cs
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\HubPage.g.cs
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SectionPage.g.i.cs
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SectionPage.g.cs
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\ItemPage.g.i.cs
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\ItemPage.g.cs
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\XamlTypeInfo.g.cs
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\HubPage.xaml
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SectionPage.xaml
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\ItemPage.xaml
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\HubPage.xbf
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SectionPage.xbf
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\ItemPage.xbf
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\XamlSaveStateFile.xml
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\App.xaml
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\App.xbf
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\BoosterAppForNepal.exe
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\BoosterAppForNepal.pdb
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\priconfig.xml
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\priconfig.xml.intermediate
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\layout.resfiles
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\layout.resfiles.intermediate
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\resources.resfiles
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\resources.resfiles.intermediate
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\pri.resfiles
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\pri.resfiles.intermediate
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\qualifiers.txt
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\qualifiers.txt.intermediate
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\ProjectArchitectures.txt
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\Upc.g.i.cs
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\Upc.g.cs
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\Upc.xbf
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\Upc.xaml
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\Upc.xbf
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\SettingsFlyoutSIgnin.xbf
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SettingsFlyoutSIgnin.g.i.cs
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SettingsFlyoutSIgnin.g.cs
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SettingsFlyoutSIgnin.xaml
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SettingsFlyoutSIgnin.xbf
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SettingsFlyoutSignUp.g.i.cs
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SettingsFlyoutSignUp.g.cs
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\SettingsFlyoutSignUp.xbf
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SettingsFlyoutSignUp.xaml
+c:\users\rachhek shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SettingsFlyoutSignUp.xbf
+C:\Users\Rachhek Shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\UnicefPage.g.i.cs
+C:\Users\Rachhek Shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\UnicefPage.g.cs
+C:\Users\Rachhek Shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\UnicefPage.xaml
+C:\Users\Rachhek Shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\UnicefPage.xbf
+C:\Users\Rachhek Shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\UnicefPage.xbf
+C:\Users\Rachhek Shrestha\Documents\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\users.g.i.cs
+C:\Users\Rachhek Shrestha\Documents\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\users.g.cs
+C:\Users\Rachhek Shrestha\Documents\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\users.xaml
+C:\Users\Rachhek Shrestha\Documents\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\users.xbf
+C:\Users\Rachhek Shrestha\Documents\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\users.xbf
+C:\Users\Rachhek Shrestha\Documents\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\instant.g.i.cs
+C:\Users\Rachhek Shrestha\Documents\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\instant.g.cs
+C:\Users\Rachhek Shrestha\Documents\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\instant.xaml
+C:\Users\Rachhek Shrestha\Documents\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\instant.xbf
+C:\Users\Rachhek Shrestha\Documents\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\instant.xbf
+C:\Users\Rachhek Shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\EventDetail.g.i.cs
+C:\Users\Rachhek Shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\EventDetail.g.cs
+C:\Users\Rachhek Shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\EventDetail.xaml
+C:\Users\Rachhek Shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\EventDetail.xbf
+C:\Users\Rachhek Shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\EventDetail.xbf
+C:\Users\Rachhek Shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\NearestMap.xbf
+C:\Users\Rachhek Shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\NearestMap.g.i.cs
+C:\Users\Rachhek Shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\NearestMap.g.cs
+C:\Users\Rachhek Shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\NearestMap.xaml
+C:\Users\Rachhek Shrestha\documents\visual studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\NearestMap.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\App.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\EventDetail.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\HubPage.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\instant.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\NearestMap.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\SectionPage.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\ItemPage.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\SettingsFlyoutSIgnin.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\SettingsFlyoutSignUp.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\UnicefPage.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\Upc.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\users.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\BoosterAppForNepal.xr.xml
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\BoosterAppForNepal.exe
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\BoosterAppForNepal.pdb
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\resources.pri
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\AppxManifest.xml
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\bin\Debug\BoosterAppForNepal.build.appxrecipe
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\App.g.i.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\App.g.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\EventDetail.g.i.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\EventDetail.g.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\HubPage.g.i.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\HubPage.g.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\instant.g.i.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\instant.g.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\NearestMap.g.i.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\NearestMap.g.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SectionPage.g.i.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SectionPage.g.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\ItemPage.g.i.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\ItemPage.g.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SettingsFlyoutSIgnin.g.i.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SettingsFlyoutSIgnin.g.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SettingsFlyoutSignUp.g.i.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SettingsFlyoutSignUp.g.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\UnicefPage.g.i.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\UnicefPage.g.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\Upc.g.i.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\Upc.g.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\users.g.i.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\users.g.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\XamlTypeInfo.g.cs
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\App.xaml
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\EventDetail.xaml
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\HubPage.xaml
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\instant.xaml
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\NearestMap.xaml
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SectionPage.xaml
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\ItemPage.xaml
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SettingsFlyoutSIgnin.xaml
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SettingsFlyoutSignUp.xaml
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\UnicefPage.xaml
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\Upc.xaml
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\users.xaml
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\App.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\EventDetail.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\HubPage.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\instant.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\NearestMap.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SectionPage.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\ItemPage.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SettingsFlyoutSIgnin.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\SettingsFlyoutSignUp.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\UnicefPage.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\Upc.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\users.xbf
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\XamlSaveStateFile.xml
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\BoosterAppForNepal.exe
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\BoosterAppForNepal.pdb
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\priconfig.xml
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\priconfig.xml.intermediate
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\layout.resfiles
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\layout.resfiles.intermediate
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\resources.resfiles
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\resources.resfiles.intermediate
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\pri.resfiles
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\pri.resfiles.intermediate
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\qualifiers.txt
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\qualifiers.txt.intermediate
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\visual studio 2013 projects\Visual Studio 2013\Projects\BoosterAppForNepal\BoosterAppForNepal\obj\Debug\ProjectArchitectures.txt

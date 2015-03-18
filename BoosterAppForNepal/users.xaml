@@ -1,0 +1,240 @@
+﻿<Page
+    x:Class="BoosterAppForNepal.users"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BoosterAppForNepal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <x:String x:Key="ChevronGlyph">&#xE26B;</x:String>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+        <Style x:Key="ReminderAppBarButtonStyle" TargetType="Button" >
+            <Setter Property="AutomationProperties.AutomationId" Value="ReminderAppBarButton"/>
+            <Setter Property="AutomationProperties.Name" Value="Reminder"/>
+            <Setter Property="Content" Value="&#xE121;"/>
+        </Style>
+    </Page.Resources>
+
+    <Page.BottomAppBar>
+        <CommandBar IsOpen="False">
+            <AppBarButton Label="Reminder" Icon="Clock" x:Name="ReminderButton" HorizontalAlignment="Left" Style="{StaticResource ReminderAppBarButtonStyle}" Click="OnReminderButtonClicked"  />
+            <AppBarButton Label="Add Child" Icon="AddFriend" />
+        </CommandBar>
+    </Page.BottomAppBar>
+    <!--
+        This grid acts as a root panel for the page.
+    -->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        
+        
+
+        <Hub>
+            <Hub.Header>
+                <!-- Back button and page title -->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="80"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button  x:Name="backButton" Margin="-1,-1,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button" Click="backButton_Click"/>
+                    <TextBlock x:Name="pageTitle" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Top" Text="Khop for Hope"/>
+                </Grid>
+            </Hub.Header>
+
+            <HubSection Width="409">
+                <DataTemplate>
+                    <StackPanel Height="698" Width="556">
+                        <Image Margin="-80,-50,10,0" Source="Assets/Vaccine.jpg" Stretch="UniformToFill" />
+
+                    </StackPanel>
+
+                </DataTemplate>
+            </HubSection>
+            <HubSection Width="518" >
+
+                <DataTemplate>
+                    <StackPanel>
+
+                        <Button Margin="0,0,0,10" Content="Upcoming" Style="{StaticResource TextBlockButtonStyle}" FontSize="20" Click="upcoming_button_click"/>
+                        <StackPanel Orientation="Horizontal" Width="470">
+
+                            <Button Style="{StaticResource TextBlockButtonStyle}" Click="eventDetail_Click" >
+                                <StackPanel Width="218">
+                                    <Image Source="/assets/polio.jpg" Width="208" Height="155" HorizontalAlignment="Left"/>
+                                    <TextBlock Text="Polio Vaccine" Style="{StaticResource SubtitleTextBlockStyle}"/>
+                                    <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                                        <TextBlock Text="Date: "/>
+                                        <TextBlock Margin="10,0,0,0" Text="22nd July 2014"/>
+
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                                        <TextBlock Text="Place: "/>
+                                        <TextBlock Margin="10,0,0,0" Text="All Nepal"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                                        <TextBlock Text="Disease: "/>
+                                        <TextBlock Margin="10,0,0,0" Text="Polio"/>
+                                    </StackPanel>
+
+                                    <TextBlock Margin="10,20,0,20" Text="Polio Immunization Camp is being organized this July 10th 2014. Please contact your
+                                   nearest health facilitor for more details.Click to learn more.
+                                   " TextWrapping="Wrap" Style="{StaticResource CaptionTextBlockStyle}" HorizontalAlignment="Left" Width="208"/>
+                                    <Button Content="Click to learn more" BorderThickness="0" Style="{StaticResource TextBlockButtonStyle}" />
+                                </StackPanel>
+                            </Button>
+                            <!-- Second row-->
+                            <Button Style="{StaticResource TextBlockButtonStyle}">
+                                <StackPanel Width="218">
+                                    <Image Source="/assets/hepab.jpg" Width="185" Height="155" HorizontalAlignment="Left"/>
+                                    <TextBlock Text="Hepatitis B Vaccine" Style="{StaticResource SubtitleTextBlockStyle}"/>
+                                    <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                                        <TextBlock Text="Date: "/>
+                                        <TextBlock Margin="10,0,0,0" Text="30th July 2014"/>
+
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                                        <TextBlock Text="Place: "/>
+                                        <TextBlock Margin="10,0,0,0" Text="Biratnagar"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                                        <TextBlock Text="Disease: "/>
+                                        <TextBlock Margin="10,0,0,0" Text="Polio"/>
+                                    </StackPanel>
+
+                                    <TextBlock HorizontalAlignment="Left" Margin="10,20,5,20" Text="Hepatitis B Immunization Camp is being organized this July 14th 2014. Please contact your
+                                   nearest health facilitor for more details.Click to learn more.
+                                   " TextWrapping="Wrap" Style="{StaticResource CaptionTextBlockStyle}"/>
+                                    <Button Content="Click to learn more" BorderThickness="0" Style="{StaticResource TextBlockButtonStyle}" />
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+
+                    </StackPanel>
+                </DataTemplate>
+            </HubSection>
+            <HubSection Width="688">
+                
+                    <DataTemplate>
+                        
+                      <StackPanel Orientation="Horizontal" Width="528">
+                        <StackPanel>
+                        <TextBlock Text="Your kids" FontSize="34"/>
+                        
+                        <StackPanel Orientation="Horizontal">
+                            <Image Height="100" Width="100" Source="/assets/kid1.jpg"></Image>
+                            <StackPanel>
+                                <TextBlock Text="Anish Shrestha" FontSize="16"/>
+                                <TextBlock Text="2 years" FontSize="16"/>
+                                <TextBlock Text="Doses Complete: IPV,MMR" FontSize="14" TextWrapping="Wrap"/>
+                            </StackPanel>
+                            
+                        </StackPanel>
+                        <StackPanel>
+                            <TextBlock Text="Next Dose" FontSize="20"/>
+                                <Button Margin="5" Style="{StaticResource TextBlockButtonStyle}" Click="reminder_click">
+                                    <StackPanel Orientation="Horizontal">
+
+
+                                        <TextBlock Text="DTP - "/>
+                                        <TextBlock Text="20th July(3 of 5 doses"/>
+
+                                    </StackPanel>
+                                </Button>
+                                
+                                                          </StackPanel>
+                            <TextBlock Margin="0,20,0,0" Text="Completed Doses" FontSize="18"/>
+                        <StackPanel Orientation="Vertical">
+
+                            <TextBlock Text="DTP - "/>
+                            <TextBlock Text="5 of 5 doses"/>
+                            <TextBlock Text="Completed on 12th March,2014"/>
+                                 </StackPanel>
+
+                        <StackPanel Orientation="Vertical">
+
+                            <TextBlock Text="DTP - "/>
+                            <TextBlock Text="5 of 5 doses"/>
+                            <TextBlock Text="Completed on 12th March,2014"/>
+                        </StackPanel>
+                        <Button Content="See Full Report" FontFamily="Global User Interface"/>
+                    
+                        </StackPanel>
+                        <StackPanel Margin="0,20,0,0">
+
+                            <StackPanel Orientation="Horizontal">
+                                <Image Height="100" Width="100" Source="/assets/kid2.jpg"></Image>
+                                <StackPanel Margin="20,20,0,0">
+                                    <TextBlock Text="Anish Shrestha" FontSize="16"/>
+                                    <TextBlock Text="6 months" FontSize="16"/>
+                                    <TextBlock Text="Doses Complete: IPV" FontSize="16"/>
+                                </StackPanel>
+
+                            </StackPanel>
+                            <StackPanel>
+                                <TextBlock Text="Next Dose" FontSize="20"/>
+                                <Button Margin="5" Style="{StaticResource TextBlockButtonStyle}" Click="reminder_click">
+                                    <StackPanel Orientation="Horizontal">
+
+
+                                        <TextBlock Text="MMR - "/>
+                                        <TextBlock Text="20th July(3 of 5 doses"/>
+
+                                    </StackPanel>
+                                </Button>
+
+                                <Button Margin="5" Style="{StaticResource TextBlockButtonStyle}" Click="reminder_click">
+                                    <StackPanel Orientation="Horizontal">
+
+
+                                        <TextBlock Text="DTP - "/>
+                                        <TextBlock Text="11th July(3 of 5 doses"/>
+
+                                    </StackPanel>
+                                </Button>
+                                
+
+                            </StackPanel>
+                            <TextBlock Margin="0,20,0,0" Text="Completed Doses" FontSize="18"/>
+                            <StackPanel Orientation="Vertical">
+
+                                <TextBlock Text="DTP - "/>
+                                <TextBlock Text="5 of 5 doses"/>
+                                <TextBlock Text="Completed on 12th March,2014"/>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Vertical">
+
+                                <TextBlock Text="DTP - "/>
+                                <TextBlock Text="5 of 5 doses"/>
+                                <TextBlock Text="Completed on 12th March,2014"/>
+                            </StackPanel>
+                            <Button Content="See Full Report" FontFamily="Global User Interface"/>
+
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+               
+            </HubSection>
+            <HubSection>
+                <DataTemplate>
+                    
+                </DataTemplate>
+            </HubSection>
+        </Hub>
+    </Grid>
+</Page>

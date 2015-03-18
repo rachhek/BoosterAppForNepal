@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C2BA70D6-AE2B-4C6D-94EB-5315D4FF4A54}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BoosterAppForNepal</RootNamespace>
+    <AssemblyName>BoosterAppForNepal</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>BoosterAppForNepal_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EventDetail.xaml.cs">
+      <DependentUpon>EventDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HubPage.xaml.cs">
+      <DependentUpon>HubPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="instant.xaml.cs">
+      <DependentUpon>instant.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NearestMap.xaml.cs">
+      <DependentUpon>NearestMap.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SectionPage.xaml.cs">
+      <DependentUpon>SectionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ItemPage.xaml.cs">
+      <DependentUpon>ItemPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataModel\SampleDataSource.cs" />
+    <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="Common\NavigationHelper.cs" />
+    <Compile Include="Common\RelayCommand.cs" />
+    <Compile Include="Common\ObservableDictionary.cs" />
+    <Compile Include="SettingsFlyoutSIgnin.xaml.cs">
+      <DependentUpon>SettingsFlyoutSIgnin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsFlyoutSignUp.xaml.cs">
+      <DependentUpon>SettingsFlyoutSignUp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UnicefPage.xaml.cs">
+      <DependentUpon>UnicefPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Upc.xaml.cs">
+      <DependentUpon>Upc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="users.xaml.cs">
+      <DependentUpon>users.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="Common\ReadMe.txt" />
+    <None Include="BoosterAppForNepal_TemporaryKey.pfx" />
+    <PRIResource Include="Strings\en-US\Resources.resw">
+      <SubType>Designer</SubType>
+    </PRIResource>
+    <Content Include="Assets\kid2.jpg" />
+    <Content Include="Assets\bcg - Copy.jpg" />
+    <Content Include="Assets\bcg.jpg" />
+    <Content Include="Assets\chickenpox - Copy.jpg" />
+    <Content Include="Assets\chickenpox.jpg" />
+    <Content Include="Assets\kid1.jpg" />
+    <Content Include="Assets\DarkGray - Copy.png" />
+    <Content Include="Assets\dpt - Copy.jpg" />
+    <Content Include="Assets\dpt.jpg" />
+    <Content Include="Assets\hepa - Copy.jpg" />
+    <Content Include="Assets\hepa.jpg" />
+    <Content Include="Assets\HepaB - Copy.jpg" />
+    <Content Include="Assets\HepaB.jpg" />
+    <Content Include="Assets\HepB - Copy.jpg" />
+    <Content Include="Assets\HepB.jpg" />
+    <Content Include="Assets\ipv - Copy.jpg" />
+    <Content Include="Assets\ipv.jpg" />
+    <Content Include="Assets\khop - Copy.jpg" />
+    <Content Include="Assets\khop.jpg" />
+    <Content Include="Assets\LightGray - Copy.png" />
+    <Content Include="Assets\Logo.scale-100 - Copy.png" />
+    <Content Include="Assets\map - Copy.jpG" />
+    <Content Include="Assets\map - Copy.PNG" />
+    <Content Include="Assets\map.jpG" />
+    <Content Include="Assets\map.PNG" />
+    <Content Include="Assets\MediumGray - Copy.png" />
+    <Content Include="Assets\mmr - Copy.jpg" />
+    <Content Include="Assets\mmr.jpg" />
+    <Content Include="Assets\opv - Copy.jpg" />
+    <Content Include="Assets\opv.jpg" />
+    <Content Include="Assets\opvchild - Copy.jpg" />
+    <Content Include="Assets\opvchild.jpg" />
+    <Content Include="Assets\pcv - Copy.jpg" />
+    <Content Include="Assets\pcv.jpg" />
+    <Content Include="Assets\polio - Copy.jpg" />
+    <Content Include="Assets\polio.jpg" />
+    <Content Include="Assets\SmallLogo.scale-100 - Copy.png" />
+    <Content Include="Assets\SplashScreen.scale-100 - Copy.png" />
+    <Content Include="Assets\SplashScreen.scale-140 - Copy.png" />
+    <Content Include="Assets\SplashScreen.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-140s - Copy.png" />
+    <Content Include="Assets\SplashScreen.scale-180 - Copy.png" />
+    <Content Include="Assets\SplashScreen.scale-180.png" />
+    <Content Include="Assets\SplashScreen.scale-140s.png" />
+    <Content Include="Assets\SplashScreen.scale-180s - Copy.png" />
+    <Content Include="Assets\SplashScreen.scale-180s.png" />
+    <Content Include="Assets\StoreLogo.scale-100 - Copy.png" />
+    <Content Include="Assets\vaccine - Copy.jpg" />
+    <Content Include="Assets\vaccine.jpg" />
+    <Content Include="DataModel\SampleData.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\LightGray.png" />
+    <Content Include="Assets\MediumGray.png" />
+    <Content Include="Assets\DarkGray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="EventDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HubPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="instant.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NearestMap.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SectionPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ItemPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SettingsFlyoutSIgnin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SettingsFlyoutSignUp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UnicefPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Upc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="users.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
